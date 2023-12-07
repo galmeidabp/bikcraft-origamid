@@ -1,0 +1,60 @@
+.bic-lista {
+   padding-top: 60px;
+   padding-bottom: 120px;
+}
+
+.bic-lista ul {
+   display: flex;
+   gap: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0 20px 20px 20px;
+   max-width: 1400px;
+   overflow-x: auto;
+}
+
+.bic-lista li {
+   min-width: 280px;
+}
+
+.bic-lista h2 {
+   margin-bottom: 40px;
+
+}
+
+.bic-lista h2 span {
+   color: var(--p1);
+}
+
+.bic-lista a {
+   display: block;
+}
+
+.bic-lista img {
+   margin-bottom: 16px;
+}
+
+.bic-lista h3 {
+   margin-bottom: 3px;
+   display: flex;
+   align-items: center;
+}
+
+.bic-lista h3::before {
+   content: "";
+   height: 8px;
+   width: 12px;
+   display: inline-block;
+   background-color: var(--p1);
+   margin-right: 8px;
+   transition: width 0.2s;
+}
+
+.bic-lista a:hover h3::before {
+   width: 24px;
+}
+
+.bic-lista li span {
+   margin-left: 20px;
+}
+

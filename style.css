@@ -1,3 +1,5 @@
 @import url(./header.css);
 @import url(./introducao.css);
-@import url(./utilidades.css);
+@import url(./utilitario/utilidades.css);
+@import url(./biclista.css);
+@import url(./utilitario/global.css);
