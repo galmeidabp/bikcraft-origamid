@@ -1,0 +1,57 @@
+.depoimento {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: var(--p1);
+   overflow: hidden;
+   margin-top: 40px;
+}
+
+.depoimento img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.depoimento-conteudo {
+   padding: 40px 40px 90px 80px;
+   align-self: self-end;
+}
+
+.depoimento-conteudo p {
+   font-family: Merriweather, serif;
+   font-style: italic;
+   font-weight: 900;
+   margin-bottom: 32px;
+   max-width: 32ch;
+   position: relative;
+}
+
+.depoimento p::before {
+   content: "“";
+   font-size: 5rem;
+   color: var(--p2);
+   position: absolute;
+   left: -50px;
+   top: -20px;
+}
+
+.depoimento p::after {
+   content: "”";
+   font-size: 5rem;
+   color: var(--p2);
+   position: absolute;
+}
+
+@media (max-width: 800px) {
+   .depoimento {
+      grid-template-columns: 1fr;
+      text-align: center;
+   }
+   .depoimento-conteudo {
+      padding: 40px 20px;
+      justify-self: center;
+   }
+   .depoimento img {
+      max-height: 200px;
+   }
+}
