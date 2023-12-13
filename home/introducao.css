@@ -10,10 +10,6 @@
    gap: 0px 40px;
 }
 
-.container-inicial h1 span {
-   color: var(--p1);
-}
-
 .container-inicial p,
 .container-inicial a {
    grid-column: 1;
