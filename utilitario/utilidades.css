@@ -22,6 +22,18 @@
    background: linear-gradient(#ffb60d, #e59317);
 }
 
+.link {
+   display: inline-block;
+   color: var(--p1);
+   text-transform: uppercase;
+   text-decoration: underline;
+   font: 500 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.link:hover {
+   color: var(--cor-0);
+}
+
 @media (max-width: 600px) {
   .botao {
     padding: 12px 16px;
@@ -48,7 +60,6 @@
 }
 
 .font-2-l-b {
-   text-transform: uppercase;
    font: 500 1.5rem/1.5 "Roboto", sans-serif;
 }
 
