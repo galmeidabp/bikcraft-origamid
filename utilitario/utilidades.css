@@ -23,7 +23,6 @@
    background: linear-gradient(#ffb60d, #e59317);
 }
 
-
 .botao.secundario {
    background: var(--cor-10);
    color: var(--cor-2);
@@ -33,6 +32,7 @@
    background: var(--cor-9);
 }
 
+/* LINKS SUBLINHADOS*/
 .link {
    display: inline-block;
    color: var(--p1);
@@ -52,6 +52,23 @@
   }
 }
 
+/* TITULO DAS PAGINAS INTERNAS*/
+.termos-bg {
+   background-color: var(--cor-11);
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+@media (max-width: 800px) {
+   .titulo-bg {
+      padding-top: 40px;
+      padding-bottom: 40px;
+   }
+   .termos-tit span {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
 
 /*TIPOGRAFIA*/
 .font-1-xxl {
@@ -125,7 +142,6 @@
     font-size: 1.5rem;
   }
 }
-
 
 /*CORES*/
 :root {
