@@ -16,6 +16,7 @@
 @import url(./bicicletas/interno.css);
 
 @import url(./contato/contato.css);
+@import url(./contato/lojas.css);
 
 
 @import url(./utilitario/utilidades.css);
@@ -23,3 +24,5 @@
 @import url(./utilitario/formulario.css);
 @import url(./utilitario/cores.css);
 @import url(./utilitario/tipografia.css);
+
+@import url(./orcamento/orcamento.css);
