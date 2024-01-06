@@ -1,5 +1,5 @@
 .inicial-bg {
-   background-color: #000;
+   background: #000 url(../img/dec/bottom-left.svg) no-repeat bottom 160px left 20px;
    display: grid;
    box-shadow: inset 0 -120px var(--cor-0);
 }
