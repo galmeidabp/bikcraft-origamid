@@ -1,19 +1,20 @@
 .termos {
-   background-color: #fff;
-   padding-top: 80px;
-   padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.termos h2, h1 {
-   margin-bottom: 20px;
-}
-
-.termos p {
-   max-width: 75ch;
-   margin-bottom: 24px;
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 32px;
 }
 
 .termos p + h2 {
-   margin-top: 40px;
+  margin-top: 40px;
 }
 
+.termos p {
+  max-width: 75ch;
+  margin-bottom: 24px;
+  padding-left: 32px;
+}

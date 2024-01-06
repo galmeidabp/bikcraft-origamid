@@ -7,20 +7,19 @@
    margin-right: auto;
 }
 
-.titulo-bg {
-   background-color: var(--cor-11);
-}
 /*BOTAO*/
 .botao {
    display: inline-block;
-   color: #332200;
+   color: var(--p5);
    padding: 16px 10px;
    background: linear-gradient(#FB0, #B07603);
-   border-radius: 5px;
+   border-radius: 4px;
    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
    text-transform: uppercase;
    font: 600 1.125rem/1.35 "Poppins", sans-serif;
    max-width: max-content;
+   border: none;
+   cursor: pointer;
 }
 
 .botao:hover {
@@ -34,19 +33,6 @@
 
 .botao.secundario:hover {
    background: var(--cor-9);
-}
-
-/* LINKS SUBLINHADOS*/
-.link {
-   display: inline-block;
-   color: var(--p1);
-   text-transform: uppercase;
-   text-decoration: underline;
-   font: 500 1.5rem/1.5 "Poppins", sans-serif;
-}
-
-.link:hover {
-   color: var(--cor-0);
 }
 
 @media (max-width: 600px) {
@@ -74,11 +60,29 @@
    transform: translateX(4px);
 }
 
-/* TITULO DAS PAGINAS INTERNAS*/
-.termos-bg {
+/* LINKS SUBLINHADOS*/
+.link {
+   display: inline-block;
+   color: var(--p1);
+   text-transform: uppercase;
+   text-decoration: underline;
+   font: 500 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.link:hover {
+   color: var(--cor-0);
+}
+
+
+/* TITULO DAS PAGINAS*/
+.titulo-bg {
    background-color: var(--cor-11);
    padding-top: 60px;
    padding-bottom: 60px;
+}
+
+.titulo p {
+   margin-bottom: 4px;
 }
 
 @media (max-width: 800px) {
@@ -86,162 +90,11 @@
       padding-top: 40px;
       padding-bottom: 40px;
    }
-   .termos-tit span {
-      font-size: 1rem;
-      font-weight: 400;
-   }
-}
-
-/*TIPOGRAFIA*/
-.font-1-xxl {
-   font: 600 4rem/1.125 "Poppins", sans-serif;
-}
-
-.font-1-xl {
-   font: 600 2rem/1.25 "Poppins", sans-serif;
-}
-
-.font-1-l {
-   font: 400 1.5rem/1.5 "Poppins", sans-serif;
-}
-
-.font-2-l {
-   font: 400 1.5rem/1.5 "Roboto", sans-serif;
-}
-
-.font-2-l-b {
-   font: 500 1.5rem/1.5 "Roboto", sans-serif;
-}
-
-.font-1-m {
-   font: 400 1.25rem/1.33 "Poppins", sans-serif;
-}
-
-.font-1-m-b {
-   font: 600 1.25rem/1.33 "Poppins", sans-serif;
-}
-
-.font-1-m-b {
-   font: 600 1.25rem/1.33 "Poppins", sans-serif;
-}
-
-.font-2-m {
-   font: 500 1.25rem/1.33 "Roboto", sans-serif;
-}
-
-.font-1-s {
-   font: 400 1rem/1.5 "Poppins", sans-serif;
-}
-
-.font-2-s {
-   font: 400 1rem/1.5 "Roboto", sans-serif;
-}
-
-.font-2-xs {
-   font: 400 0.8rem/1.42 "Roboto", sans-serif;
-}
-
-.font-1-xs {
-   font: 600 0.75rem/1.33 "Poppins", sans-serif;
-}
-
-@media (max-width: 1200px) {
-  .font-1-xxl {
-    font-size: 3rem;
-  }
-  .font-2-l,
-  .font-2-l-b {
-    font-size: 1.125rem;
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
-
-@media (max-width: 800px) {
-  .font-1-xxl {
-    font-size: 2rem;
-  }
-  .font-1-xl,
-  .font-2-xl {
-    font-size: 1.5rem;
-  }
-}
-
-/*CORES*/
-:root {
-   --cor-12: #0000;
-   --cor-11: #111;
-   --cor-10: #2e2e2e;
-   --cor-9: #404040;
-   --cor-8: #595959;
-   --cor-7: #717171;
-   --cor-6: #9c9c9c;
-   --cor-5: #b2b2b2;
-   --cor-4: #ccc;
-   --cor-3: #dedede;
-   --cor-2: #ededed;
-   --cor-1: #f7f7f7;
-   --cor-0: #fff;
-
-   --p5: #332200;
-   --p4: #664400;
-   --p3: #a66f00;
-   --p2: #e4a30b;
-   --p1: #ffbb00;
-}
-.cor-12 {
-   color: var(--cor-12);
-}
-.cor-11 {
-   color: var(--cor-11);
-}
-.cor-10 {
-   color: var(--cor-10);
-}
-.cor-9 {
-   color: var(--cor-9);
-}
-.cor-8 {
-   color: var(--cor-8);
-}
-.cor-7 {
-   color: var(--cor-7);
-}
-.cor-6 {
-   color: var(--cor-6);
-}
-.cor-5 {
-   color: var(--cor-5);
-}
-.cor-4 {
-   color: var(--cor-4);
-}
-.cor-3 {
-   color: var(--cor-3);
-}
-.cor-2 {
-   color: var(--cor-2);
-}
-.cor-1 {
-   color: var(--cor-1);
-}
-.cor-0 {
-   color: var(--cor-0);
-}
-.p5 {
-   color: var(--p5)
-}
-.p4 {
-   color: var(--p4)
-}
-.p3 {
-   color: var(--p3)
-}
-.p2 {
-   color: var(--p2)
-}
-.p1 {
-   color: var(--p1)
-}
-
-
 
 

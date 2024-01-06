@@ -1,8 +1,6 @@
 @import url(./home/header.css);
 @import url(./home/introducao.css);
-@import url(./utilitario/utilidades.css);
 @import url(./home/biclista.css);
-@import url(./utilitario/global.css);
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
@@ -16,3 +14,12 @@
 @import url(./seguros/seguros.css);
 
 @import url(./bicicletas/interno.css);
+
+@import url(./contato/contato.css);
+
+
+@import url(./utilitario/utilidades.css);
+@import url(./utilitario/global.css);
+@import url(./utilitario/formulario.css);
+@import url(./utilitario/cores.css);
+@import url(./utilitario/tipografia.css);
