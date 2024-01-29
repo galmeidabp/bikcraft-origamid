@@ -28,6 +28,8 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 
 A Bikcraft é uma empresa fictícia especializada na criação de bicicletas elétricas 100% personalizáveis. Seu foco está em oferecer aos clientes uma experiência única ao permitir que eles personalizem cada detalhe de suas bicicletas. Além disso, a Bikcraft integra serviços de seguro para garantir a segurança dos usuários durante seus passeios. A empresa também oferece uma área de contato para suporte personalizado e uma ferramenta de orçamento online, facilitando o planejamento e a aquisição de bicicletas personalizadas. Comprometida com a sustentabilidade, a Bikcraft visa proporcionar não apenas um meio de transporte, mas uma experiência que se alinha ao estilo de vida de cada cliente.
 
+Além disso, o site pode ser acessado pelo link https://www.origamid.com/projetos/bikcraft/
+
 ## ✏️ Aprendizado
 
 Ao construir o site, mergulhei em um processo enriquecedor que me proporcionou valiosos aprendizados e aprimorou minhas habilidades no mundo do desenvolvimento web. Durante essa jornada, enfrentei diversos desafios que me incentivaram a resolver problemas de forma criativa, corrigir erros de maneira eficaz e aprofundar meu entendimento sobre as tecnologias fundamentais.
